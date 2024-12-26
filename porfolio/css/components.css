@@ -1,0 +1,40 @@
+/* Component-specific styles */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.hero {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+                url('https://via.placeholder.com/1920x1080') center/cover;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.card {
+    background-color:transparent ;
+    /* color: white; */
+    transition: transform 0.3s ease;
+    border: none;
+    box-shadow: 0 7px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.project-card img {
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+#contactForm {
+    padding: 2rem;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+/* card test */
+
+  

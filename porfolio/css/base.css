@@ -1,0 +1,27 @@
+/* Base styles */
+:root {
+    --primary-font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --section-padding: 60px;
+}
+
+body {
+    font-family: var(--primary-font);
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(rgba(232, 229, 229, 0.7), rgb(239, 236, 236))
+}
+
+section {
+    padding-top: var(--section-padding);
+}
+
+@media (max-width: 768px) {
+    .hero {
+        text-align: center;
+    }
+    
+    .hero h1 {
+        font-size: 2.5em;
+    }
+}
